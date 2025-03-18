@@ -19,10 +19,10 @@ It is a refactored version of a PHP monolithic system optimized for microservice
 ## 📦 Project Structure
 ```
 .
-├── app
-│   ├── main.py        # FastAPI application
-│   └── __init__.py
-├── .env               # Environment variables (DB URL)
+app
+|── main.py        # FastAPI application
+│── order.php       # old php file 
+├── .env.local               # Environment variables (DB URL)
 ├── requirements.txt   # Python dependencies
 └── README.md
 ```
